@@ -11,15 +11,15 @@
 
     <main>
 
-        <div class="container pt-5">
+        <div class="container py-5">
 
             <div class="row justify-content-center">
 
-                <div class="col-10 bg-danger vh-100">
+                <div class="col-10 bg-danger">
 
                     <h3 class="text-center text-light">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h3>
 
-                    <div class="card">
+                    <div class="card py-3">
 
                         <div class="card-body">
 
@@ -36,7 +36,7 @@
                                 </div>
 
                                 <div>
-                                    <label for="age-input" class="form-label text-danger"><strong>Fasce d'età</strong></label>
+                                    <label for="age-input" class="form-label text-danger"><strong>Età</strong></label>
                                     <input type="text" class="form-control" name="age" id="age-input">
                                 </div>
 
@@ -45,6 +45,7 @@
                             <div class="d-flex justify-content-center mt-5">
 
                                 <button id="generate" class="btn btn-outline-secondary me-2 text-danger"><strong>Genera</strong></button>
+                                
                                 <button id="delete" class="btn btn-outline-secondary ms-2 text-danger"><strong>Annulla</strong></button>
 
                             </div>
@@ -55,7 +56,7 @@
 
                     <h3 class="mt-3 text-center text-light">IL TUO BIGLIETTO</h3>
 
-                    <div class="card">
+                    <div class="card py-3 mb-5">
 
                         <div class="card-body">
 
@@ -66,35 +67,40 @@
                                 <div class="col-3 bg-secondary">
 
                                     <h5>NOME PASSEGGERO</h5>
-                                    <div></div>
+
+                                    <div id="username_element" class="pt-5"></div>
 
                                 </div>
 
                                 <div class="col-3">
 
                                     <div><strong>Offerta</strong></div>
-                                    <div></div>
+
+                                    <div id="promotion_element" class="pt-5"></div>
 
                                 </div>
 
                                 <div class="col-2">
 
                                     <div><strong>Carrozza</strong></div>
-                                    <div></div>
+
+                                    <div id="cart_element" class="pt-5"></div>
 
                                 </div>
 
                                 <div class="col-2">
 
                                     <div><strong>Codice CP</strong></div>
-                                    <div></div>
+
+                                    <div id="CP_code_element" class="pt-5"></div>
 
                                 </div>
 
                                 <div class="col-2">
 
                                     <div><strong>Costo Biglietto</strong></div>
-                                    <div></div>
+
+                                    <div id="ticket_fee_element" class="pt-5"></div>
 
                                 </div>
 
